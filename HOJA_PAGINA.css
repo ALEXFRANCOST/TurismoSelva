@@ -1,0 +1,127 @@
+
+
+
+.Contenedor{
+    width: 965px;
+    background:#E0DCCB;
+    margin: auto;
+    
+}
+ 
+/* Estilos del  Carrusel*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+    color: red;
+    
+}
+
+.slider-frame {
+	width: 965px;
+        height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/* Fin de Estilos del  Carrusel*/
+
+/* ESTILOS DE TABLAS*/
+.CARACTERISTICAS{
+    float: right;
+    margin-top: -425px;
+}
+
+
+
+/*ESTILOS DEL MENU*/
+.Menu{
+    float: right;
+    margin-top:90px;
+    margin-right:75px;
+    
+}
+
+.Menu li{
+    display: inline-block;
+    padding: 30px;
+}
+/*ESTLOS DEL CONTENIDO*/
+table h4{
+    color: #491217;
+    font-family: Bodoni Bd BT;
+}
+table p{
+    text-align: justify;
+}
+table h3{
+    color: #155724;
+}
+
+
+
+
+/*ESTILOS DEL PIE DE PAGINA*/
+.Pie{
+    width: 965px;
+    background:#E0DCCB;
+    margin: auto;
+}
+.Contenido_pie img{
+    padding: 30px;
+  
+}
+.Contenido_pie p{
+    text-align: justify;
+}
+.Contenido_pie th{
+    text-align: center;
+    
+}
+.Contenido_pie img{
+   margin-top: -20px;
+  
+}
+.circulollenoA{
+     text-align: justify;
+    font-size: 17px;
+}
+
+
